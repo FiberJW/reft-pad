@@ -1,0 +1,9 @@
+{
+  "name": "reft-pad",
+  "version": "0.1.0",
+  "sources": ["src"],
+  "package-specs": ["es6"],
+  "bs-dependencies": [],
+  "namespace": true,
+  "refmt": 3
+}

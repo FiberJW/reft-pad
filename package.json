@@ -1,0 +1,19 @@
+{
+  "name": "reft-pad",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "clean": "bsb -clean-world",
+    "postinstall": "npm run build"
+  },
+  "main": "dist/main.bs.js",
+  "source": "src/main.re",
+  "keywords": ["BuckleScript"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^2.1.0",
+    "rollup-plugin-bucklescript": "^0.6.1"
+  }
+}
