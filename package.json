@@ -9,11 +9,13 @@
   },
   "main": "dist/main.bs.js",
   "source": "src/main.re",
-  "keywords": ["BuckleScript"],
+  "keywords": [
+    "BuckleScript"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "^2.1.0",
-    "rollup-plugin-bucklescript": "^0.6.1"
+    "bs-platform": "^5.0.4",
+    "rollup-plugin-bucklescript": "^0.7.0"
   }
 }
